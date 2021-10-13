@@ -82,7 +82,7 @@
             </plugin>
             <plugin>
                 <!-- This is what injects the magic Quarkus bytecode -->
-                <groupId>${quarkus.platform.group-id}</groupId>
+                <groupId>${quarkus.plugin.group-id}</groupId>
                 <artifactId>quarkus-maven-plugin</artifactId>
                 <version>${quarkus.platform.version}</version>
                 <executions>

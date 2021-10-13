@@ -8,6 +8,11 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <properties>
+        <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
+        <quarkus.plugin.group-id>${quarkus.platform.group-id}</quarkus.plugin.group-id>
+    </properties>
+
     <modules>
         <module>amazon-dynamodb-quickstart</module>
         <module>amazon-kms-quickstart</module>

@@ -12,12 +12,12 @@
         <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
         <quarkus.platform.group-id>io.quarkus.platform</quarkus.platform.group-id>
         <quarkus.platform.version>3.8.3</quarkus.platform.version>
+        <quarkus-amazon-services.version>3.8.3</quarkus-amazon-services.version>
         <surefire-plugin.version>3.1.2</surefire-plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <quarkus-amazon-services.version>2.5.2</quarkus-amazon-services.version>
-        <awssdk.testcontainers.version>1.12.57</awssdk.testcontainers.version>
+        <awssdk.testcontainers.version>1.12.694</awssdk.testcontainers.version>
     </properties>
 
     <dependencyManagement>
@@ -30,7 +30,7 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>io.quarkiverse.amazonservices</groupId>
+                <groupId>io.quarkus.platform</groupId>
                 <artifactId>quarkus-amazon-services-bom</artifactId>
                 <version>${quarkus-amazon-services.version}</version>
                 <type>pom</type>
